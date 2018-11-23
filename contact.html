@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- This HTML was prepared by Emek Yurt for Web Technologies and Business Systems lecture that has QMT 4233 lecture code. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emek Yurt's Webpage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+  </head>
+<style>
+.fa {
+    padding: 2px;
+    font-size: 20px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    height: auto;
+    margin: 15px; 
+}
+.fa-linkedin {
+    background: rgb(25, 5, 138);
+    color: rgb(255, 255, 255);
+    border-radius: 25%;
+}
+.fa-facebook {
+    color: rgb(53, 60, 128);
+}
+.fa-twitter {
+    color: rgb(64, 132, 196);
+}
+.fa-instagram {
+    color: rgb(184, 32, 32);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 247, 247);
+    text-align: center;
+}
+
+  </style>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="mainpage.html">Main Page</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="cv.html">CV <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                  <span class="navbar-text">
+                      <b>©Emek Yurt All Rights Reserved</b>
+                  </span>
+                </div>
+              </nav>
+           
+
+        
+        <div class="cold-flex justify-content-center"><div class="card text-center text-white bg-info mb-3" alt="Max-width 250%">
+            
+                <div class="h-1000 d-inline-block" style="height: 1000px;">
+          <div class="card-header">You can join us!</div>
+          <div class="card-body">
+              <form action="/action_page.php">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Name and Surname</span>
+                    </div>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
+                  </div>
+                  <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class= "input-group-text">Phone Number</span>
+                      </div>
+                      <input type="text" aria-label="First name" class="form-control">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">E-mail Adress</span>
+                        </div>
+                        <input type="text" aria-label="First name" class="form-control">
+                      </div>
+                      <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">Age</span>
+                          </div>
+                          <input type="text" aria-label="First name" class="form-control">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">Adress</span>
+                            </div>
+                            <input type="text" aria-label="First name" class="form-control">
+                          </div>
+              </form>
+               <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">About You</span>
+                  </div>
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+                  <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupFileAddon01">Upload Your Writings</span>
+                      </div>
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                      </div>
+                    </div>
+                  <input class="btn btn-success btn-lg" type="submit" value="Submit">
+                <input type="reset" class="btn btn-danger btn-lg" value="Reset">
+          </div>
+        </div>
+
+          <div class="footer">           
+              <a href="https://www.linkedin.com/in/emek-yurt-a06287ab/"><i class="fa fa-linkedin"></i></a> 
+              <a href="https://www.instagram.com/emekyurt/"><i class="fa fa-instagram"></i></a> 
+              <a href="https://www.twitter.com/emekyurt/"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/emekyurt/"><i class="fa fa-facebook"></i></a>
+              <p><b>You can contact with me via all of my social media accounts.</b></p>
+          </div>
+        </div>
+      </div>
+
+          
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
